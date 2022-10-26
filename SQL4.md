@@ -1,4 +1,4 @@
-
+# patikadev-SQL Ödev-4
 
 Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
