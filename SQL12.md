@@ -16,7 +16,8 @@ SELECT COUNT(*) FROM film WHERE length = (SELECT MAX(length) FROM film)
 
 3. film tablosunda en düşük rental_rate ve en düşün replacement_cost değerlerine sahip filmleri sıralayınız.
 ```
-SELECT * FROM film WHERE rental_rate = (SELECT MIN(rental_rate) FROM film) AND replacement_cost = (SELECT MIN(replacement_cost) FROM film)
+SELECT * FROM film 
+WHERE rental_rate = (SELECT MIN(rental_rate) FROM film) AND replacement_cost = (SELECT MIN(replacement_cost) FROM film)
 ```
 
 4. payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
